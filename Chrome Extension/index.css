@@ -1,0 +1,25 @@
+#input-btn, #tab-btn {
+    color: white;
+    background-color: #5f9341;
+    border: 1px solid rgb(204, 178, 6);
+    min-width: 300px;
+
+}
+
+#delete-btn {
+    color: #5f9341;
+    background-color: white;
+    border: 1px solid #5f9341;
+}
+
+button {
+    border: none;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+}
+
+#input-txt {
+    width: 300px;
+    height: 25px;
+}
