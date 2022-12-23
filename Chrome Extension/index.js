@@ -22,7 +22,8 @@ function render(leads) {
 
 inputBtn.addEventListener("click", function() {
     if (inputField.value){
-        myLeads.push(inputField.value)
+    let httpsInputFieldValue = "https://" + inputField.value
+    myLeads.push(httpsInputFieldValue)
     localStorage.setItem("myLeads", JSON.stringify(myLeads))
     inputField.value = ""
     render(myLeads)
